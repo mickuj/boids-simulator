@@ -1,13 +1,8 @@
-# 🐦 Boids – symulacja stada
+# Boids - symulacja stada
 
 Agentowa symulacja ruchu stada oparta na algorytmie Boids Craiga Reynoldsa. Projekt realizowany w ramach przedmiotu **Algorytmy inteligentne inspirowane naturą**.
 
 Każdy boid widzi tylko sąsiadów w swoim polu widzenia i na tej podstawie w każdej klatce koryguje kurs. Nie ma lidera ani centralnego sterowania. Zorganizowany ruch całej grupy wyłania się z trzech prostych reguł lokalnych.
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![Pygame](https://img.shields.io/badge/Pygame-2.x-green)
-![NumPy](https://img.shields.io/badge/NumPy-vectorized-orange)
-![Status](https://img.shields.io/badge/status-v0.1-yellow)
 
 ---
 
@@ -39,13 +34,6 @@ git clone <adres-repozytorium>
 cd boids
 pip install -r requirements.txt
 python boids.py
-```
-
-`requirements.txt`:
-
-```
-pygame>=2.5
-numpy>=1.24
 ```
 
 ---
